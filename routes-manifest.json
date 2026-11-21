@@ -1,0 +1,134 @@
+[
+  {
+    "page": "/404",
+    "regex": "^/404$",
+    "routeKeys": {},
+    "namedRoute": "/404"
+  },
+  {
+    "page": "/ai-call",
+    "regex": "^/ai-call$",
+    "routeKeys": {},
+    "namedRoute": "/ai-call"
+  },
+  {
+    "page": "/alternatives",
+    "regex": "^/alternatives$",
+    "routeKeys": {},
+    "namedRoute": "/alternatives"
+  },
+  {
+    "page": "/analyzer",
+    "regex": "^/analyzer$",
+    "routeKeys": {},
+    "namedRoute": "/analyzer"
+  },
+  {
+    "page": "/auto-subtitle",
+    "regex": "^/auto-subtitle$",
+    "routeKeys": {},
+    "namedRoute": "/auto-subtitle"
+  },
+  {
+    "page": "/caption-remover",
+    "regex": "^/caption-remover$",
+    "routeKeys": {},
+    "namedRoute": "/caption-remover"
+  },
+  {
+    "page": "/clip-finder",
+    "regex": "^/clip-finder$",
+    "routeKeys": {},
+    "namedRoute": "/clip-finder"
+  },
+  {
+    "page": "/help",
+    "regex": "^/help$",
+    "routeKeys": {},
+    "namedRoute": "/help"
+  },
+  {
+    "page": "/image-studio",
+    "regex": "^/image-studio$",
+    "routeKeys": {},
+    "namedRoute": "/image-studio"
+  },
+  {
+    "page": "/",
+    "regex": "^/*$",
+    "routeKeys": {},
+    "namedRoute": "/"
+  },
+  {
+    "page": "/pricing",
+    "regex": "^/pricing$",
+    "routeKeys": {},
+    "namedRoute": "/pricing"
+  },
+  {
+    "page": "/privacy",
+    "regex": "^/privacy$",
+    "routeKeys": {},
+    "namedRoute": "/privacy"
+  },
+  {
+    "page": "/shorts-audit",
+    "regex": "^/shorts-audit$",
+    "routeKeys": {},
+    "namedRoute": "/shorts-audit"
+  },
+  {
+    "page": "/terms",
+    "regex": "^/terms$",
+    "routeKeys": {},
+    "namedRoute": "/terms"
+  },
+  {
+    "page": "/thumbnail-analyzer",
+    "regex": "^/thumbnail-analyzer$",
+    "routeKeys": {},
+    "namedRoute": "/thumbnail-analyzer"
+  },
+  {
+    "page": "/title-generator",
+    "regex": "^/title-generator$",
+    "routeKeys": {},
+    "namedRoute": "/title-generator"
+  },
+  {
+    "page": "/video-enhancer",
+    "regex": "^/video-enhancer$",
+    "routeKeys": {},
+    "namedRoute": "/video-enhancer"
+  },
+  {
+    "page": "/vidiq-alternative",
+    "regex": "^/vidiq-alternative$",
+    "routeKeys": {},
+    "namedRoute": "/vidiq-alternative"
+  },
+  {
+    "page": "/viral-engine",
+    "regex": "^/viral-engine$",
+    "routeKeys": {},
+    "namedRoute": "/viral-engine"
+  },
+  {
+    "page": "/vocal-remover",
+    "regex": "^/vocal-remover$",
+    "routeKeys": {},
+    "namedRoute": "/vocal-remover"
+  },
+  {
+    "page": "/voice-clone",
+    "regex": "^/voice-clone$",
+    "routeKeys": {},
+    "namedRoute": "/voice-clone"
+  },
+  {
+    "page": "/voice-generate",
+    "regex": "^/voice-generate$",
+    "routeKeys": {},
+    "namedRoute": "/voice-generate"
+  }
+]

@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LAKAI — AI Video & Image Creation Studio</title>
+<meta name="description" content="Every top AI video and image model — Kling, Sora, Veo, Seedance, Nano Banana — in one creative studio. 20+ AI tools for creators.">
+<link rel="icon" href="icon.svg">
+<link rel="apple-touch-icon" href="icon.svg">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  :root{--bg:#ffffff;--fg:#0f172a;--muted:#64748b;--border:#e2e8f0;--primary:#0088f2;--accent:#0049ae;--max-w:1200px}
+  html,body{background:var(--bg);color:var(--fg);font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}
+  a{color:var(--primary);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .container{max-width:var(--max-w);margin:0 auto;padding:0 20px}
+  header{padding:28px 0;border-bottom:1px solid var(--border)}
+  .nav{display:flex;align-items:center;justify-content:space-between;gap:16px}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:20px;letter-spacing:-0.5px}
+  .brand .mark{width:26px;height:26px;border-radius:6px;background:linear-gradient(135deg,#0088f2,#0049ae);display:grid;place-items:center;color:#fff;font-weight:900;font-size:14px}
+  nav ul{display:flex;gap:26px;list-style:none}
+  nav a{color:var(--fg);font-weight:600;font-size:14px;text-decoration:none}
+  nav a:hover{color:var(--primary);text-decoration:none}
+  .btn{display:inline-block;padding:10px 20px;border-radius:8px;font-weight:700;font-size:14px;border:1px solid var(--border);background:#fff;cursor:pointer}
+  .btn:hover{border-color:var(--primary);color:var(--primary)}
+  .btn-primary{background:var(--primary);color:#fff;border-color:var(--primary)}
+  .btn-primary:hover{background:var(--accent)}
+  section{padding:70px 0}
+  .hero{text-align:center;padding:90px 0 60px}
+  .hero h1{font-size:42px;font-weight:800;line-height:1.15;letter-spacing:-1px;margin-bottom:16px}
+  .hero p{font-size:18px;color:var(--muted);max-width:640px;margin:0 auto 28px}
+  .hero-actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+  .tools-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:20px;margin-top:40px}
+  .tool-card{border:1px solid var(--border);border-radius:14px;padding:22px;background:#fff;transition:transform .15s,border-color .15s}
+  .tool-card:hover{border-color:var(--primary);transform:translateY(-2px)}
+  .tool-card .icon{width:40px;height:40px;border-radius:10px;background:#f1f5f9;display:grid;place-items:center;margin-bottom:14px;font-size:20px}
+  .tool-card h3{font-size:16px;font-weight:700;margin-bottom:6px}
+  .tool-card p{font-size:13px;color:var(--muted);margin-bottom:14px}
+  .tool-card a.btn{font-size:12px;padding:8px 14px;width:100%;text-align:center;text-decoration:none;border:none;background:#f8fafc;color:var(--fg)}
+  .tool-card a.btn:hover{background:#e2e8f0;color:var(--primary)}
+  .section-title{font-size:26px;font-weight:800;letter-spacing:-0.5px;margin-bottom:10px;text-align:center}
+  .section-sub{text-align:center;color:var(--muted);margin-bottom:34px;font-size:16px}
+  footer{border-top:1px solid var(--border);padding:40px 0;color:var(--muted);font-size:13px;text-align:center}
+  footer a{color:inherit;margin:0 12px}
+  .chip{display:inline-flex;gap:6px;align-items:center;padding:6px 10px;border-radius:999px;background:#f1f5f9;font-size:12px;font-weight:700;color:var(--accent);margin-bottom:16px}
+  @media (max-width:640px){.hero h1{font-size:30px}section{padding:45px 0}}
+</style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="/"><span class="mark">L</span><span>LAKAI <span style="font-weight:400;font-size:14px;opacity:0.8">Studio</span></span></a>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/pricing.html">Pricing</a></li>
+        <li><a href="/help.html">Help</a></li>
+        <li><a href="#" class="btn btn-primary" style="padding:8px 16px;font-size:13px">Get started</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <span class="chip">Lakai AI &bull; 20+ creative tools</span>
+    <h1>Create cinematic AI videos <span style="color:var(--primary)">and images</span></h1>
+    <p>Every top AI video and image model &mdash; Kling, Sora, Veo, Seedance, Nano Banana &mdash; in one creative studio. Generate voiceovers, edit images, make thumbnails, captions, and more.</p>
+    <div class="hero-actions">
+      <a href="/voice-generate.html" class="btn btn-primary">AI Voice Generator</a>
+      <a href="/image-studio.html" class="btn">Image Studio</a>
+      <a href="/pricing.html" class="btn">View Pricing</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">All AI tools</h2>
+    <p class="section-sub">Everything you need to grow as a creator, in one platform.</p>
+    <div class="tools-grid">
+      <div class="tool-card">
+        <div class="icon">&#128274;</div>
+        <h3>AI Voice Generator</h3>
+        <p>Turn text into natural AI voiceovers &mdash; podcasts, YouTube hooks, ads, narration.</p>
+        <a href="/voice-generate.html" class="btn">Open tool</a>
+      </div>
+      <div class="tool-card">
+        <div class="icon">&#128247;</div>
+        <h3>Image Studio</h3>
+        <p>Make and edit images from a prompt with the top image models.</p>
+        <a href="/image-studio.html" class="btn">Open tool</a>
+      </div>
+      <div class="tool-card">
+        <div class="icon">&#128250;</div>
+        <h3>Video Enhancer</h3>
+        <p>Enhance and upscale your videos with AI.</p>
+        <a href="/video-enhancer.html" class="btn">Open tool</a>
+      </div>
+      <div class="tool-card">
+        <div class="icon">&#128249;</div>
+        <h3>Thumbnail Analyzer</h3>
+        <p>Analyze and improve your YouTube thumbnails for better CTR.</p>
+        <a href="/thumbnail-analyzer.html" class="btn">Open tool</a>
+      </div>
+      <div class="tool-card">
+        <div class="icon">&#128272;</div>
+        <h3>Title Generator</h3>
+        <p>Generate viral, click-worthy video titles.</p>
+        <a href="/title-generator.html" class="btn">Open tool</a>
+      </div>
+      <div class="tool-card">
+        <div class="icon">&#128266;</div>
+        <h3>Vocal Remover</h3>
+        <p>Remove vocals or isolate instruments from any audio track.</p>
+        <a href="/vocal-remover.html" class="btn">Open tool</a>
+      </div>
+      <div class="tool-card">
+        <div class="icon">&#127926;</div>
+        <h3>Voice Clone</h3>
+        <p>Clone a voice and generate speech in that voice.</p>
+        <a href="/voice-clone.html" class="btn">Open tool</a>
+      </div>
+      <div class="tool-card">
+        <div class="icon">&#128255;</div>
+        <h3>Auto Subtitle</h3>
+        <p>Generate accurate subtitles and captions for your videos.</p>
+        <a href="/auto-subtitle.html" class="btn">Open tool</a>
+      </div>
+      <div class="tool-card">
+        <div class="icon">&#128246;</div>
+        <h3>Clip Finder</h3>
+        <p>Find the best clips in your long-form videos for Shorts.</p>
+        <a href="/clip-finder.html" class="btn">Open tool</a>
+      </div>
+      <div class="tool-card">
+        <div class="icon">&#128251;</div>
+        <h3>Shorts Audit</h3>
+        <p>Audit your YouTube Shorts and get growth tips.</p>
+        <a href="/shorts-audit.html" class="btn">Open tool</a>
+      </div>
+      <div class="tool-card">
+        <div class="icon">&#128171;</div>
+        <h3>Viral Engine</h3>
+        <p>Tools and strategies to help your content go viral.</p>
+        <a href="/viral-engine.html" class="btn">Open tool</a>
+      </div>
+      <div class="tool-card">
+        <div class="icon">&#128220;</div>
+        <h3>Automation Coach</h3>
+        <p>A live AI voice call for creators.</p>
+        <a href="/ai-call.html" class="btn">Open tool</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:#f8fafc">
+  <div class="container">
+    <h2 class="section-title">Start creating</h2>
+    <p class="section-sub">Join thousands of creators using LAKAI to grow their channels.</p>
+    <div class="hero-actions" style="justify-content:center">
+      <a href="/pricing.html" class="btn btn-primary">See Pricing</a>
+      <a href="/help.html" class="btn">Help &amp; Support</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div style="font-weight:700;margin-bottom:10px">LAKAI Studio</div>
+    <div>
+      <a href="/">Home</a>
+      <a href="/pricing.html">Pricing</a>
+      <a href="/help.html">Help</a>
+      <a href="/privacy.html">Privacy</a>
+      <a href="/terms.html">Terms</a>
+    </div>
+    <div style="margin-top:10px">© 2026 LAKAI. All rights reserved.</div>
+  </div>
+</footer>
+</body>
+</html>

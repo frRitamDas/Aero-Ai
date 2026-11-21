@@ -1,0 +1,141 @@
+{
+  "version": 3,
+  "prerenderedRoutes": {
+    "/404": {
+      "initialRevalidate": false,
+      "dataRoute": "/404.json",
+      "dataRouteRegex": "/404\\.json/?(*).json",
+      "target": "/public/404.html"
+    },
+    "/ai-call": {
+      "initialRevalidate": false,
+      "dataRoute": "/ai-call.json",
+      "dataRouteRegex": "/ai-call\\.json/?(*).json",
+      "target": "/public/ai-call.html"
+    },
+    "/alternatives": {
+      "initialRevalidate": false,
+      "dataRoute": "/alternatives.json",
+      "dataRouteRegex": "/alternatives\\.json/?(*).json",
+      "target": "/public/alternatives.html"
+    },
+    "/analyzer": {
+      "initialRevalidate": false,
+      "dataRoute": "/analyzer.json",
+      "dataRouteRegex": "/analyzer\\.json/?(*).json",
+      "target": "/public/analyzer.html"
+    },
+    "/auto-subtitle": {
+      "initialRevalidate": false,
+      "dataRoute": "/auto-subtitle.json",
+      "dataRouteRegex": "/auto-subtitle\\.json/?(*).json",
+      "target": "/public/auto-subtitle.html"
+    },
+    "/caption-remover": {
+      "initialRevalidate": false,
+      "dataRoute": "/caption-remover.json",
+      "dataRouteRegex": "/caption-remover\\.json/?(*).json",
+      "target": "/public/caption-remover.html"
+    },
+    "/clip-finder": {
+      "initialRevalidate": false,
+      "dataRoute": "/clip-finder.json",
+      "dataRouteRegex": "/clip-finder\\.json/?(*).json",
+      "target": "/public/clip-finder.html"
+    },
+    "/help": {
+      "initialRevalidate": false,
+      "dataRoute": "/help.json",
+      "dataRouteRegex": "/help\\.json/?(*).json",
+      "target": "/public/help.html"
+    },
+    "/image-studio": {
+      "initialRevalidate": false,
+      "dataRoute": "/image-studio.json",
+      "dataRouteRegex": "/image-studio\\.json/?(*).json",
+      "target": "/public/image-studio.html"
+    },
+    "/": {
+      "initialRevalidate": false,
+      "dataRoute": "/.json",
+      "dataRouteRegex": "/\\.json/?(*).json",
+      "target": "/public/index.html"
+    },
+    "/pricing": {
+      "initialRevalidate": false,
+      "dataRoute": "/pricing.json",
+      "dataRouteRegex": "/pricing\\.json/?(*).json",
+      "target": "/public/pricing.html"
+    },
+    "/privacy": {
+      "initialRevalidate": false,
+      "dataRoute": "/privacy.json",
+      "dataRouteRegex": "/privacy\\.json/?(*).json",
+      "target": "/public/privacy.html"
+    },
+    "/shorts-audit": {
+      "initialRevalidate": false,
+      "dataRoute": "/shorts-audit.json",
+      "dataRouteRegex": "/shorts-audit\\.json/?(*).json",
+      "target": "/public/shorts-audit.html"
+    },
+    "/terms": {
+      "initialRevalidate": false,
+      "dataRoute": "/terms.json",
+      "dataRouteRegex": "/terms\\.json/?(*).json",
+      "target": "/public/terms.html"
+    },
+    "/thumbnail-analyzer": {
+      "initialRevalidate": false,
+      "dataRoute": "/thumbnail-analyzer.json",
+      "dataRouteRegex": "/thumbnail-analyzer\\.json/?(*).json",
+      "target": "/public/thumbnail-analyzer.html"
+    },
+    "/title-generator": {
+      "initialRevalidate": false,
+      "dataRoute": "/title-generator.json",
+      "dataRouteRegex": "/title-generator\\.json/?(*).json",
+      "target": "/public/title-generator.html"
+    },
+    "/video-enhancer": {
+      "initialRevalidate": false,
+      "dataRoute": "/video-enhancer.json",
+      "dataRouteRegex": "/video-enhancer\\.json/?(*).json",
+      "target": "/public/video-enhancer.html"
+    },
+    "/vidiq-alternative": {
+      "initialRevalidate": false,
+      "dataRoute": "/vidiq-alternative.json",
+      "dataRouteRegex": "/vidiq-alternative\\.json/?(*).json",
+      "target": "/public/vidiq-alternative.html"
+    },
+    "/viral-engine": {
+      "initialRevalidate": false,
+      "dataRoute": "/viral-engine.json",
+      "dataRouteRegex": "/viral-engine\\.json/?(*).json",
+      "target": "/public/viral-engine.html"
+    },
+    "/vocal-remover": {
+      "initialRevalidate": false,
+      "dataRoute": "/vocal-remover.json",
+      "dataRouteRegex": "/vocal-remover\\.json/?(*).json",
+      "target": "/public/vocal-remover.html"
+    },
+    "/voice-clone": {
+      "initialRevalidate": false,
+      "dataRoute": "/voice-clone.json",
+      "dataRouteRegex": "/voice-clone\\.json/?(*).json",
+      "target": "/public/voice-clone.html"
+    },
+    "/voice-generate": {
+      "initialRevalidate": false,
+      "dataRoute": "/voice-generate.json",
+      "dataRouteRegex": "/voice-generate\\.json/?(*).json",
+      "target": "/public/voice-generate.html"
+    }
+  },
+  "fallbackRoutes": [],
+  "dataRoutes": [],
+  "dynamicRoutes": [],
+  "isPreview": false
+}

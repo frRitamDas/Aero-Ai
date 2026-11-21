@@ -1,0 +1,256 @@
+{
+  "name": null,
+  "pages": {
+    "/404": [
+      "main.js",
+      "polyfills.js",
+      "react.js",
+      "react-dom.js"
+    ],
+    "/ai-call": [
+      "main.js",
+      "polyfills.js",
+      "react.js",
+      "react-dom.js"
+    ],
+    "/alternatives": [
+      "main.js",
+      "polyfills.js",
+      "react.js",
+      "react-dom.js"
+    ],
+    "/analyzer": [
+      "main.js",
+      "polyfills.js",
+      "react.js",
+      "react-dom.js"
+    ],
+    "/auto-subtitle": [
+      "main.js",
+      "polyfills.js",
+      "react.js",
+      "react-dom.js"
+    ],
+    "/caption-remover": [
+      "main.js",
+      "polyfills.js",
+      "react.js",
+      "react-dom.js"
+    ],
+    "/clip-finder": [
+      "main.js",
+      "polyfills.js",
+      "react.js",
+      "react-dom.js"
+    ],
+    "/help": [
+      "main.js",
+      "polyfills.js",
+      "react.js",
+      "react-dom.js"
+    ],
+    "/image-studio": [
+      "main.js",
+      "polyfills.js",
+      "react.js",
+      "react-dom.js"
+    ],
+    "/": [
+      "main.js",
+      "polyfills.js",
+      "react.js",
+      "react-dom.js"
+    ],
+    "/pricing": [
+      "main.js",
+      "polyfills.js",
+      "react.js",
+      "react-dom.js"
+    ],
+    "/privacy": [
+      "main.js",
+      "polyfills.js",
+      "react.js",
+      "react-dom.js"
+    ],
+    "/shorts-audit": [
+      "main.js",
+      "polyfills.js",
+      "react.js",
+      "react-dom.js"
+    ],
+    "/terms": [
+      "main.js",
+      "polyfills.js",
+      "react.js",
+      "react-dom.js"
+    ],
+    "/thumbnail-analyzer": [
+      "main.js",
+      "polyfills.js",
+      "react.js",
+      "react-dom.js"
+    ],
+    "/title-generator": [
+      "main.js",
+      "polyfills.js",
+      "react.js",
+      "react-dom.js"
+    ],
+    "/video-enhancer": [
+      "main.js",
+      "polyfills.js",
+      "react.js",
+      "react-dom.js"
+    ],
+    "/vidiq-alternative": [
+      "main.js",
+      "polyfills.js",
+      "react.js",
+      "react-dom.js"
+    ],
+    "/viral-engine": [
+      "main.js",
+      "polyfills.js",
+      "react.js",
+      "react-dom.js"
+    ],
+    "/vocal-remover": [
+      "main.js",
+      "polyfills.js",
+      "react.js",
+      "react-dom.js"
+    ],
+    "/voice-clone": [
+      "main.js",
+      "polyfills.js",
+      "react.js",
+      "react-dom.js"
+    ],
+    "/voice-generate": [
+      "main.js",
+      "polyfills.js",
+      "react.js",
+      "react-dom.js"
+    ]
+  },
+  "routeRegexes": {
+    "/404": {
+      "regex": "^/404$",
+      "routeKeys": {},
+      "namedRoute": "/404"
+    },
+    "/ai-call": {
+      "regex": "^/ai-call$",
+      "routeKeys": {},
+      "namedRoute": "/ai-call"
+    },
+    "/alternatives": {
+      "regex": "^/alternatives$",
+      "routeKeys": {},
+      "namedRoute": "/alternatives"
+    },
+    "/analyzer": {
+      "regex": "^/analyzer$",
+      "routeKeys": {},
+      "namedRoute": "/analyzer"
+    },
+    "/auto-subtitle": {
+      "regex": "^/auto-subtitle$",
+      "routeKeys": {},
+      "namedRoute": "/auto-subtitle"
+    },
+    "/caption-remover": {
+      "regex": "^/caption-remover$",
+      "routeKeys": {},
+      "namedRoute": "/caption-remover"
+    },
+    "/clip-finder": {
+      "regex": "^/clip-finder$",
+      "routeKeys": {},
+      "namedRoute": "/clip-finder"
+    },
+    "/help": {
+      "regex": "^/help$",
+      "routeKeys": {},
+      "namedRoute": "/help"
+    },
+    "/image-studio": {
+      "regex": "^/image-studio$",
+      "routeKeys": {},
+      "namedRoute": "/image-studio"
+    },
+    "/": {
+      "regex": "^/*$",
+      "routeKeys": {},
+      "namedRoute": "/"
+    },
+    "/pricing": {
+      "regex": "^/pricing$",
+      "routeKeys": {},
+      "namedRoute": "/pricing"
+    },
+    "/privacy": {
+      "regex": "^/privacy$",
+      "routeKeys": {},
+      "namedRoute": "/privacy"
+    },
+    "/shorts-audit": {
+      "regex": "^/shorts-audit$",
+      "routeKeys": {},
+      "namedRoute": "/shorts-audit"
+    },
+    "/terms": {
+      "regex": "^/terms$",
+      "routeKeys": {},
+      "namedRoute": "/terms"
+    },
+    "/thumbnail-analyzer": {
+      "regex": "^/thumbnail-analyzer$",
+      "routeKeys": {},
+      "namedRoute": "/thumbnail-analyzer"
+    },
+    "/title-generator": {
+      "regex": "^/title-generator$",
+      "routeKeys": {},
+      "namedRoute": "/title-generator"
+    },
+    "/video-enhancer": {
+      "regex": "^/video-enhancer$",
+      "routeKeys": {},
+      "namedRoute": "/video-enhancer"
+    },
+    "/vidiq-alternative": {
+      "regex": "^/vidiq-alternative$",
+      "routeKeys": {},
+      "namedRoute": "/vidiq-alternative"
+    },
+    "/viral-engine": {
+      "regex": "^/viral-engine$",
+      "routeKeys": {},
+      "namedRoute": "/viral-engine"
+    },
+    "/vocal-remover": {
+      "regex": "^/vocal-remover$",
+      "routeKeys": {},
+      "namedRoute": "/vocal-remover"
+    },
+    "/voice-clone": {
+      "regex": "^/voice-clone$",
+      "routeKeys": {},
+      "namedRoute": "/voice-clone"
+    },
+    "/voice-generate": {
+      "regex": "^/voice-generate$",
+      "routeKeys": {},
+      "namedRoute": "/voice-generate"
+    }
+  },
+  "ampFirstPages": {},
+  "ssgPages": {},
+  "rsc": {},
+  "isFsRedirects": {},
+  "isFsProxyFallbacks": {},
+  "clientRoutes": {},
+  "imageOptimizationConfig": {}
+}
